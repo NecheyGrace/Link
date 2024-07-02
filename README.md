@@ -48,7 +48,7 @@ Ensure you have the following installed on your system:
    ```plaintext
    personal-website/
    ├── index.html
-   ├── styles.css
+   ├── style.css
    └── script.js
    ```
 

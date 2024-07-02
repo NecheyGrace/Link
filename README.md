@@ -197,7 +197,3 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 
 Please contact [nechemetu@gmail.com](mailto:nechemetu@gmail.com) for any inquiries or issues.
-
----
-
-Could you replace the placeholder values with your actual details? This README provides an overview, setup instructions, file structure, and hosting steps to help users get started with your project easily.

@@ -10,7 +10,16 @@ function updateDateTime() {
   ).textContent = `Current Day: ${currentDay}`;
 }
 
+function setImageNaturalDimensions() {
+  const image = document.querySelector('[data-testid="slackProfilePicture"]');
+  image.onload = function () {
+    image.width = image.naturalWidth;
+    image.height = image.naturalHeight;
+  };
+}
+
 window.onload = function () {
   updateDateTime();
+  setImageNaturalDimensions();
   setInterval(updateDateTime, 1000); // Update every second
 };
